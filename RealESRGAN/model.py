@@ -43,7 +43,7 @@ class RealESRGAN:
             cache_dir = os.path.dirname(model_path)
             local_filename = os.path.basename(model_path)
             config_file_url = hf_hub_url(repo_id=config['repo_id'], filename=config['filename'])
-            hf_hub_download(repo_id=config['repo_id'], cache_dir=cache_dir, filename=config['filename'])
+            hf_hub_download(repo_id=config['repo_id'], cache_dir=cache_dir, force_filename=local_filename, filename=config['filename'])
             print('Weights downloaded to:', os.path.join(cache_dir, local_filename))
         
         loadnet = torch.load(model_path)
