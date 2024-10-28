@@ -9,7 +9,7 @@ You can try it in [google colab](https://colab.research.google.com/drive/1YlWt--
 
 - [Paper (Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data)](https://arxiv.org/abs/2107.10833)
 - [Original implementation](https://github.com/xinntao/Real-ESRGAN)
-- [Huggingface 🤗](https://huggingface.co/sberbank-ai/Real-ESRGAN)
+- [Huggingface 🤗](https://huggingface.co/spaces/doevent/Face-Real-ESRGAN)
 
 ### Installation
 
